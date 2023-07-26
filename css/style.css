@@ -2,10 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
 /*======================================================
 基本 全体の設定
+margin: 8px
 ======================================================*/
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin: 5;
   padding: 0;
 }
 
@@ -80,20 +81,20 @@ header a {
 }
 
 header .inner {
-  background-color: #ffffff;
+  background-color: #a9e8d9;
   position: relative;
   display: flex;
   justify-content: space-between;
   padding: 15px 20px;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.35);
-  border-radius: 4px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+  border-radius: 2px;
   margin: 20px;
 }
 
 /* ロゴ */
 #header_logo img {
   display: block;
-  width: 100px;
+  width: 80px;
 }
 
 /* メニュー */
@@ -220,7 +221,7 @@ body.contents_page {/* classにcontents_pageが指定されているbodyタグ *
 }
 
 .each_link{
-  display: flex;
+  display: inline-block;
   flex-direction: inherit;;
   background-color: #ffffff;
 }
