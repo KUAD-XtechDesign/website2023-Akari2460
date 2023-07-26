@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
 /*======================================================
 基本 全体の設定
 ======================================================*/
@@ -18,7 +19,7 @@ body {
 body {
   font-size: 16px;
   line-height: 1.6;
-  font-family: 'Stick', sans-serif;
+  font-family: 'Yomogi', cursive;
   letter-spacing: 0.05em;
   min-height: 100vh;
   padding-bottom: 100px;
@@ -202,7 +203,7 @@ body.contents_page {/* classにcontents_pageが指定されているbodyタグ *
   height: 600px;
   color: #ffffff;
   font-weight: bold;
-  background-image: url(../images/IMG_20200401_162656.jpg);/* 背景画像 */
+  background-image: url(../images/無題36_20230726023458.png);/* 背景画像 */
   background-size: cover;/* 背景画像のサイズ 要素いっぱいに表示 */
   background-position: center center;/* 背景画像の位置 */
   background-attachment: fixed;/* スクロールしたときの背景画像の位置 固定 */
@@ -220,7 +221,7 @@ body.contents_page {/* classにcontents_pageが指定されているbodyタグ *
 
 .each_link{
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: inherit;;
   background-color: #ffffff;
 }
 
