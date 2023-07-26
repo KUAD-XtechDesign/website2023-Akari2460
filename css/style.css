@@ -18,8 +18,7 @@ body {
 body {
   font-size: 16px;
   line-height: 1.6;
-  font-family: 'HanziPen TC',sans-serif;
-  color: #393939;
+  font-family: 'Stick', sans-serif;
   letter-spacing: 0.05em;
   min-height: 100vh;
   padding-bottom: 100px;
@@ -221,6 +220,8 @@ body.contents_page {/* classにcontents_pageが指定されているbodyタグ *
 
 .each_link{
   display: flex;
+  flex-direction: column-reverse;
+  background-color: #ffffff;
 }
 
 .each_link .link_pic{
